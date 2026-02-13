@@ -8,13 +8,18 @@
     "test": "node test/app.test.js"
   },
   "dependencies": {
-    "express": "4.18.2",
+    "express": "5.1.0",
     "mongoose": "6.12.3",
     "passport": "0.6.0",
     "passport-local": "1.0.0",
     "express-session": "1.17.3",
     "bcryptjs": "2.4.3"
   },
-  "keywords": ["auth", "express", "mongoose", "passport"],
+  "keywords": [
+    "auth",
+    "express",
+    "mongoose",
+    "passport"
+  ],
   "license": "MIT"
 }
