@@ -48,7 +48,7 @@ app.get('/api/info', function (req, res) {
 
 // Express 4 wildcard route — catches everything not matched above
 // In Express 5, wildcard '*' must become '{*path}' (path-to-regexp v8 change)
-app.get('*', function (req, res) {
+app.get('{*path}', function (req, res) {
   res.status(404).json({ error: 'Not found', path: req.path });
 });
 
